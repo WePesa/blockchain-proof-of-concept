@@ -10,3 +10,5 @@ Onces of Blockchain's properities are:
 * Digital Ledger: Once a record is written in the network, it cannot be reversed (it is not totally true, but we will ignore the outlier cases for now). All records have a previous record dependency.
 * Free read: Read a record is free for us. It enable us to decrease the monthly costs servers.
 * Fee to write: Write a record has a cost.
+
+With this properties in mind, we want to validate the viability of using a blockchain database for a web projects.
