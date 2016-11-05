@@ -41,4 +41,5 @@ The same configuration is used for both countries.
 ## Toolset
 
 * Java 8
-* Spring Boot
+* [Spring Boot](https://spring.io/)
+* [Parity](https://ethcore.io/parity.html)
