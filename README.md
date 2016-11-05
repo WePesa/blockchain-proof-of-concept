@@ -1,4 +1,4 @@
-# Blockchain database usage in an existing project using CQRS | Proof of concept
+# Blockchain database usage in an web project using CQRS | Proof of concept
 
 ## Introduction
 
@@ -12,3 +12,33 @@ Onces of Blockchain's properities are:
 * Fee to write: Write a record has a cost.
 
 With this properties in mind, we want to validate the viability of using a blockchain database for a web projects.
+
+## Goals
+
+* Fast data propagation between continents
+* Write data at Europe and Read at North America
+* Extract cost metrics
+* Extract deploy time
+
+## User stories
+
+* As a user, I want to publish a post
+* As a user, I want to view a post
+* As a user, I want to view all posts
+
+## Amazon Web Services
+
+To setup the same environment used for this experiment, the next machines will be needed:
+
+Ireland:
+* 2x t2.micro
+
+Oregon:
+* 2x t2.micro
+
+The same configuration is used for both countries.
+
+## Toolset
+
+* Java 8
+* Spring Boot
