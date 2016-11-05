@@ -36,10 +36,35 @@ Ireland:
 Oregon:
 * 2x t2.micro
 
-The same configuration is used for both countries.
+The same configuration is used for both regions.
+
+## Experiments
+
+The goals are reflected as experiments. For more details, view the wiki.
 
 ## Toolset
 
 * Java 8
 * [Spring Boot](https://spring.io/)
 * [Parity](https://ethcore.io/parity.html)
+
+## Which blockchain?
+
+### Ethereum
+
+Ethereum is a public blockchain, featuring smart contract functionality.
+
+[Wikipedia entry](https://en.wikipedia.org/wiki/Ethereum)
+[Official webside](https://www.ethereum.org/)
+[GitHub](https://github.com/ethereum)
+
+### Hyperledger fabric
+
+Hyperledger is a cross-industry collaborative effort, started by the Linux Foundation, to support blockchain-based distributed ledgers.
+
+One of the projects is Fabric.
+The fabric is an implementation of blockchain technology that is intended as a foundation for developing blockchain applications or solutions. It offers a modular architecture allowing components, such as consensus and membership services, to be plug-and-play. It leverages container technology to host smart contracts called “chaincode” that comprise the application logic of the system.
+
+[Wikipedia entry](https://en.wikipedia.org/wiki/Hyperledger)
+[Official webside](https://www.hyperledger.org/)
+[Github](https://github.com/hyperledger/fabric)
