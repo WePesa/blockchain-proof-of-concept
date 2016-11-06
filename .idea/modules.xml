@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/cqrs-with-blockchain.iml" filepath="$PROJECT_DIR$/cqrs-with-blockchain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cqrs-with-blockchain.iml" filepath="$PROJECT_DIR$/.idea/modules/cqrs-with-blockchain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cqrs-with-blockchain_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cqrs-with-blockchain_main.iml" group="cqrs-with-blockchain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cqrs-with-blockchain_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cqrs-with-blockchain_test.iml" group="cqrs-with-blockchain" />
     </modules>
   </component>
 </project>
