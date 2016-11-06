@@ -28,7 +28,7 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
-    testCompile "org.springframework.boot:spring-boot-starter-test:$spring_version"
+    testCompile "org.springframework.boot:spring-boot-starter-test:$springBootVersion"
 
     compile("org.springframework.boot:spring-boot-starter-data-jpa:$springBootVersion")
     compile("org.springframework.boot:spring-boot-starter-web:$springBootVersion")
