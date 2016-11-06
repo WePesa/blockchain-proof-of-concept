@@ -2,22 +2,29 @@ package domain;
 
 import java.util.Date;
 
-public class DefaultPost implements Post {
+final public class DefaultPost implements Post {
+    final String title;
+    final String body;
+    final Date timestamp;
+
     public DefaultPost(String title, String body, Date date) {
+        this.title = title;
+        this.body = body;
+        this.timestamp = date;
     }
 
     @Override
     public String getTitle() {
-        return null;
+        return title;
     }
 
     @Override
     public String getBody() {
-        return null;
+        return body;
     }
 
     @Override
     public Date getTimestamp() {
-        return null;
+        return timestamp;
     }
 }
