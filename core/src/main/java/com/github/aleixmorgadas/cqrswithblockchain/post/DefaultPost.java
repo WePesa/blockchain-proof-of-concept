@@ -1,4 +1,4 @@
-package domain.post;
+package com.github.aleixmorgadas.cqrswithblockchain.post;
 
 import java.util.Date;
 

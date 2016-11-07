@@ -32,8 +32,10 @@ dependencies {
 
     compile("org.springframework.boot:spring-boot-starter-data-jpa:$springBootVersion")
     compile("org.springframework.boot:spring-boot-starter-web:$springBootVersion")
+    compile("org.springframework.boot:spring-boot-starter-velocity:$springBootVersion")
 
-    runtime("org.springframework.boot:spring-boot-devtools:$springBootVersion")
+    compile("org.springframework.boot:spring-boot-devtools:$springBootVersion")
+    runtime('com.h2database:h2')
 }
 
 springBoot {
