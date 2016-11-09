@@ -1,4 +1,4 @@
-# Blockchain database and service usage in an web project using CQRS | Proof of concept
+# Blockchain database and service usage in an web project | Proof of concept
 
 ## Introduction
 
