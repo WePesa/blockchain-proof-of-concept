@@ -13,7 +13,8 @@ Onces of Blockchain's properities are:
 
 With this properties in mind, we want to validate the viability of using a blockchain database for a web projects.
 
-At the same time, there are some blockchains that implements the smart contract feature (we will use just blockchains with that feature). An [Smart Contract](https://en.wikipedia.org/wiki/Smart_contract) is a protocol on top of the blockchain that, when the blockchain has an specific state, the protocol is executed.  (PENDING TO REVIEW)
+At the same time, there are some blockchains that implements the smart contract feature (we will use just blockchains with that feature).  
+An [Smart Contract](https://en.wikipedia.org/wiki/Smart_contract) is a protocol on top of the blockchain that, when the blockchain has an specific state, the protocol is executed.  (PENDING TO REVIEW)  
 The smart contract feature enables us to use blockchain as a service, with their own reponsability (a kind of Bounded Context in DDD).
 
 ## Goals
