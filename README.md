@@ -19,9 +19,13 @@ The smart contract feature enables us to use blockchain as a service, with their
 
 ## Goals
 
-* Fast data propagation between continents
-* Write data at Europe and Read at North America
-* Extract cost metrics
+The project aims to use the blockchain for the next use cases:
+* Delegate the read operations of data to the blockchain for decrease the load of our servers.
+* Use the blockchain as a payment system.
+
+In addition, we want to present some metrics and side-effects of this project that could help us to decide if the blockchain is worth to be used or not.
+* Fast data propagation between continents: Write data at Europe and Read at North America
+* Extract cost metrics: Cost per user
 * Extract deploy time
 
 ## User stories
