@@ -11,7 +11,8 @@ The project aims to use the blockchain for the next use cases:
 ### Distributed database
 
 Delegate the read operations of data to the blockchain for decrease the load of our servers.
-![Post Request](diagrams/post request.png)
+![Post Request](diagrams/post_request.png)
+![Get Request](diagrams/get_request.png)
 
 ### Payment System
 
