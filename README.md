@@ -1,54 +1,27 @@
-# Blockchain database and service usage in an web project | Proof of concept
+# Blockchain database and service usage in an existing project | Proof of concept
 
 ## Introduction
 
-Blockchain is a distributed database that maintains a continuously-growing list of records called blocks secured from tampering and revision. View Wikipedia article [here](https://en.wikipedia.org/wiki/Blockchain_(database))
-
-Onces of Blockchain's properities are:
-
-* Decentralized: By storing data across the network. Every server, from now called node, stores all the information.
-* Digital Ledger: Once a record is written in the network, it cannot be reversed (it is not totally true, but we will ignore the outlier cases for now). All records have a previous record dependency.
-* Free read: Read a record is free for us. It enable us to decrease the monthly costs servers.
-* Fee to write: Write a record has a cost.
-
-With this properties in mind, we want to validate the viability of using a blockchain database for a web projects.
-
-At the same time, there are some blockchains that implements the smart contract feature (we will use just blockchains with that feature).  
-An [Smart Contract](https://en.wikipedia.org/wiki/Smart_contract) is a protocol on top of the blockchain that, when the blockchain has an specific state, the protocol is executed.  (PENDING TO REVIEW)  
-The smart contract feature enables us to use blockchain as a service, with their own reponsability (a kind of Bounded Context in DDD).
+The project tries to get closer the actual projects in the market and the emerging technology blockchain.
 
 ## Goals
 
 The project aims to use the blockchain for the next use cases:
-* Delegate the read operations of data to the blockchain for decrease the load of our servers.
-* Use the blockchain as a payment system.
+
+### Distributed database
+
+Delegate the read operations of data to the blockchain for decrease the load of our servers.
+![Post Request](diagrams/post request.png)
+
+### Payment System
+
+Use the blockchain as a payment system.
+
 
 In addition, we want to present some metrics and side-effects of this project that could help us to decide if the blockchain is worth to be used or not.
 * Fast data propagation between continents: Write data at Europe and Read at North America
 * Extract cost metrics: Cost per user
 * Extract deploy time
-
-## User stories
-
-* As a user, I want to publish a post
-* As a user, I want to view a post
-* As a user, I want to view all posts
-
-## Amazon Web Services
-
-To setup the same environment used for this experiment, the next machines will be needed:
-
-Ireland:
-* 2x t2.micro
-
-Oregon:
-* 2x t2.micro
-
-The same configuration is used for both regions.
-
-## Experiments
-
-The goals are reflected as experiments. For more details, view the wiki.
 
 ## Toolset
 
@@ -58,7 +31,7 @@ The goals are reflected as experiments. For more details, view the wiki.
 
 ## Which blockchain?
 
-### Ethereum
+### Ethereum | Public blockchain
 
 Ethereum is a public blockchain, featuring smart contract functionality.
 
@@ -66,7 +39,7 @@ Ethereum is a public blockchain, featuring smart contract functionality.
 [Official webside](https://www.ethereum.org/)  
 [GitHub](https://github.com/ethereum)  
 
-### Hyperledger fabric
+### Hyperledger fabric | Private blockchain
 
 Hyperledger is a cross-industry collaborative effort, started by the Linux Foundation, to support blockchain-based distributed ledgers.
 
