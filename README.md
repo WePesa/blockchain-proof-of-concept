@@ -53,4 +53,4 @@ The fabric is an implementation of blockchain technology that is intended as a f
 
 ## Donations
 
-<img src="https://github.com/aleixmorgadas/blockchain-proof-of-concept/blob/master/diagrams/index.png"/> Ethereum account: 0x0067553e6fB9381d5f881Aec8BC23E2e89A22Ee7
+<img src="https://github.com/aleixmorgadas/blockchain-proof-of-concept/blob/master/diagrams/index.png"/ height="18"> Ethereum account: 0x0067553e6fB9381d5f881Aec8BC23E2e89A22Ee7
