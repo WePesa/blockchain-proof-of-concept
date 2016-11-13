@@ -50,3 +50,7 @@ The fabric is an implementation of blockchain technology that is intended as a f
 [Wikipedia entry](https://en.wikipedia.org/wiki/Hyperledger)  
 [Official webside](https://www.hyperledger.org/)  
 [Github](https://github.com/hyperledger/fabric)  
+
+## Donations
+
+Ethereum ![account](diagrams/index.png) account: 0x0067553e6fB9381d5f881Aec8BC23E2e89A22Ee7
